@@ -1,15 +1,15 @@
 ﻿:root {
-    --font-family: helvetica;
+    --font-family: Galindo;
     --font-size: 16px;
     --bg-color: white;
     --max-width: 1024px;
     --min-width: 280px;
 }
 #header {
-    background-color: #d9d9d9;
-    color: #247BA0;
+    background-color: floralwhite;
+    color: #000000;
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 #nav {
@@ -28,8 +28,8 @@ ul {
     height: 45px;
 }
 #titulo {
-    text-align: left;
-    background-color: #d9d9d9;
+    text-align: center;
+    background-color: #1a6483;
 }
 
 li a {
@@ -58,8 +58,8 @@ li a:hover {
 #side {
     text-align: center;
     float: right;
-    width: 15%;
-    padding-bottom: 79%;
+    width: 20%;
+    padding-bottom: 80%;
     background-color: #ffd6cc;
 }
 
@@ -70,9 +70,9 @@ li a:hover {
 }
 
 #footer {
-    background-color: #C7EFCF;
+    background-color: #d9d9d9;
     text-align: center;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     font-size: 20px;
 }
 

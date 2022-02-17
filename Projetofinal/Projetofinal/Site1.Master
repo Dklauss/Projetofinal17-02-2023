@@ -7,26 +7,36 @@
 <head runat="server">  
     <title>Made in Files</title>  
     <link href="css/global.css" rel="stylesheet" /> 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />  
-    <asp:ContentPlaceHolder ID="head" runat="server">  
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" /> 
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+<style>
+.center {
+  margin: auto;
+  width: 40%;
+  border: 3px solid #73AD21;
+  padding: 60px;
+}
+</style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+     
   
         </asp:ContentPlaceHolder>  
 </head>  
 <body>  
     <!DOCTYPE html>  
-    <form id="form1" runat="server">  
-      
 <html>  
 <head>  
     <title>my layout</title>  
     <link rel="stylesheet" type="text/css" href="my.css">  
 </head>  
 <body>  
- 
+ <center>
+     <header id="header">  
+<h1>Made in Files</h1>  
+</header>
 <nav id="nav">  
     <ul>  
-        <asp:Image ID="Image2" runat="server" Height="80px" Width="80px" ImageUrl="~/img/2557715.png" />
-              <br /> Made in Files
+        <style>background-image: url(logo.png);</style>
         <li><a href="/home.aspx">Ínicio</a></li>  
         <li><a href="/manager.aspx">Gerenciar</a></li>  
         <li><a href="/send.aspx">Enviar</a></li>  
@@ -35,8 +45,7 @@
         <li><a href="/profile.aspx">Perfil</a></li>  
     </ul>  
 </nav>  
-    
-<aside id="side">  
+   <aside id="side">  
     <h1>news</h1>  
     <a href="#"><p>creating html website</p></a>  
     <a href="#"><p>learn css</p></a>  
@@ -46,24 +55,24 @@
   
     <div id="con">  
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">  
-       
-           
+          
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+            </p>
+          
         </asp:ContentPlaceHolder>  
     </div>  
   
   
 <footer id="footer">  
-   <div>
-    <a>
-  
-
-    </a>
-
-   </div>
-</footer>  
+    copyright @c# corner  
+</footer> 
+     </center>
 </body>  
 </html>  
+    <form id="form1" runat="server">  
       
     </form>  
 </body>  
-</html>
+</html>  
